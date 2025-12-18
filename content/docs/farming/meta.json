@@ -1,5 +1,6 @@
 {
   "title": "Farming",
   "description": "Learn how to grow food",
+  "icon": "Sprout",
   "root": true
 }

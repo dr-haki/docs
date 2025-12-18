@@ -5,6 +5,7 @@ timestamp: 2025-11-25T18:26:00
 type:
   - Resource
 system: Job Hunt Asteroid 042
+icon: Code
 tags:
   - programming
   - job-search

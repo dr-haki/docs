@@ -1,5 +1,6 @@
 {
   "title": "Philosophy",
-  "description": "The Philophy behind Dr. Haki",
+  "description": "Values behind Dr. Haki",
+  "icon": "Sparkle",
   "root": true
 }

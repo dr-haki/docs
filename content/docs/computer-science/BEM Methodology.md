@@ -5,6 +5,7 @@ timestamp: 2025-11-25T01:35:00
 type:
   - Concept Log
 system: Front-end Galaxy 042
+icon: Eclipse
 tags:
   - programming
   - styles

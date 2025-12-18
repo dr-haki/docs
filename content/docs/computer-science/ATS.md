@@ -5,6 +5,7 @@ timestamp: 2025-11-25T01:35:00
 type:
   - Concept Log
 system: Job Hunt Asteroid 042
+icon: File
 tags:
   - programming
   - job-search
