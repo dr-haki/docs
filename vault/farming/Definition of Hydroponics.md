@@ -7,8 +7,10 @@ tags:
 title: Definition of Hydroponics
 japanese: 水耕栽培の定義
 number: 4
+icon: Sprout
 ---
-> **Definition**
+
+> [!info] Definition
 > Hydroponics is based on growing plants without fertiliser. It is a more efficient way to provide your plants with nutrients and water. 
 
 Plants do not actually use soil. Soil is simply soil. 

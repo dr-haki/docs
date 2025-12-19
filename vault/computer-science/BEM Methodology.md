@@ -1,6 +1,6 @@
 ---
 title: BEM Methodology
-number: 7
+description: System for writing cleaner styles
 timestamp: 2025-11-25T01:35:00
 type:
   - Concept Log
@@ -10,25 +10,26 @@ tags:
   - programming
   - styles
 ---
+## Overview 
 
-Issue #1
-Starting to migrate the code from previous version into the Turbo Monorepo. 
+Issue #1. 
+Starting to migrate the code from previous version into the Turbo Monorepo.  
 
-Since I was using an external UI framework, 
-need for raw customization. Wild. 
+Since I was using an external UI framework,   
+need for raw customization. Wild.   
 
-Coming back to a really structural way of writing styles. 
+Coming back to a really structural way of writing styles.   
 The **BEM** methodolody rocks. 
 
-> **Concept: BEM**  
-> Styling methodology that helps to create reusable components and code sharing in front-end 
-> development. 
 
-It is basically a set of naming conventions which make the styles code 
-much more flexible, modular and easy to read. 
-One of the pillars of [[Clean Code]] is to write code that will be as easy as possible to read. 
+> [!info] **Core Concept: BEM**  
+> Styling methodology that helps to create reusable components and code sharing in front-end development. 
 
-This BEM methodology accomplish that. 
+It is basically a set of naming conventions which make the styles code   
+much more flexible, modular and easy to read.   
+One of the pillars of Clean Code is to write code that will be as easy as possible to read.  
+
+This BEM methodology accomplish that.   
 
 ## Basic conventions from BEM 
 
@@ -84,6 +85,6 @@ Cool way of organising the styles code.
 
 End Log — **Dr. Haki**.
 
-## Sources 
+## Resources 
 
 - https://whatislove.dev/articles/bem-modifiers-in-pure-css-nesting/ 

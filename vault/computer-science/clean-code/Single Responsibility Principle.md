@@ -1,0 +1,21 @@
+---
+title: Single Responsibility Principle
+timestamp: 2025-11-25T01:35:00
+type:
+  - Concept Log
+system: Design Patterns
+icon: Gem
+tags:
+  - programming
+  - design-patterns
+---
+## Core Principle
+As the name suggests, the Single Responsibility principle states 2 key principles.
+
+1. Your class or method should have **only one reason to change**.
+2. Your class or method should have **only one responsibility to take care of**.
+
+If we follow these principles, the [[Separation of Concerns SoC]] is naturally applied. 
+
+### Sources 
+- https://www.geeksforgeeks.org/single-responsibility-in-solid-design-principle/

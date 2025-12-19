@@ -1,0 +1,23 @@
+diff --git a/node_modules/fumadocs-obsidian/dist/index.js b/node_modules/fumadocs-obsidian/dist/index.js
+index 9c35fd0..750441d 100644
+--- a/node_modules/fumadocs-obsidian/dist/index.js
++++ b/node_modules/fumadocs-obsidian/dist/index.js
+@@ -11,6 +11,7 @@ import {
+ import { glob } from "tinyglobby";
+ import fs from "fs/promises";
+ import path from "path";
++import matter from "gray-matter";
+ function readVaultFiles(options) {
+   return __async(this, null, function* () {
+     const { include = "**/*", dir } = options;
+@@ -63,9 +64,7 @@ function convertVaultFiles(_0) {
+         };
+         const mdast = yield processor.run(processor.parse(vfile), vfile);
+         const string = stringifier.stringify(mdast);
+-        const frontmatter = dump({
+-          title: path2.basename(file.path, path2.extname(file.path))
+-        }).trim();
++        const frontmatter = dump(file.frontmatter).trim();
+         output.push({
+           type: "content",
+           path: file.outPath,

@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "2f4ab34b32cff770",
+    "type": "split",
+    "children": [
+      {
+        "id": "8527f6aa597e97d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3dfd2a86c2b1bc4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "308751caf47694f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fe2b89caf2475db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8036f75b51e8c784",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c278133c281099cc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "192f8a2f1d547ff7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "40fedc0d49071acb",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7fb1be45d2286e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e9d22827f5dbd52",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "computer-science/java/java compiler.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for java compiler"
+            }
+          },
+          {
+            "id": "fcb9792beb8f13e2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "computer-science/java/java compiler.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from java compiler"
+            }
+          },
+          {
+            "id": "3aaf13e130441df9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "779098807f964c36",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d87d4def33c6893b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "computer-science/java/java compiler.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of java compiler"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e3dfd2a86c2b1bc4",
+  "lastOpenFiles": [
+    "philosophy/ats.mdx",
+    "philosophy/bem-methodology.mdx",
+    "farming/definition-of-hydroponics.mdx",
+    "philosophy/life-as-music.mdx",
+    "computer-science/ats.mdx",
+    "computer-science/bem-methodology.mdx",
+    "philosophy/thinking-like-java.mdx",
+    "philosophy/linking-your-thinking.mdx",
+    "computer-science/spring/spring-beans.mdx",
+    "computer-science/spring/spring-data-architecture.mdx",
+    "computer-science/spring/documenting-interfaces.mdx",
+    "docs/computer-science/java/Garbage-Collector.md",
+    "computer-science/java/java compiler.md",
+    "computer-science/java/Heap Space.md",
+    "computer-science/java/Garbage Collector.md",
+    "computer-science/java/javac command for Compiler.md",
+    "computer-science/java/polymorphism.md",
+    "computer-science/java/Java Exceptions.md",
+    "computer-science/java/Auto-boxing and Un-boxing.md",
+    "computer-science/zen/Root Cause Analysis.md",
+    "computer-science/zen/Exercism.md",
+    "computer-science/zen/Create Small PR's.md",
+    "computer-science/zen/Always Comment on Jiras.md",
+    "computer-science/Spring/Spring Data Architecture.md",
+    "computer-science/Spring/Spring Beans.md",
+    "computer-science/Spring/Documenting Interfaces.md",
+    "computer-science/java/Unreachable Statement.md",
+    "computer-science/java/UML.md",
+    "computer-science/java/Throwable Exception Tree.md",
+    "computer-science/java/String Pool.md",
+    "computer-science/java/Numeric Promotion in Java.md",
+    "computer-science/java/Many things can go wrong in a program.md",
+    "computer-science/java/JVM.md",
+    "computer-science/java/Float vs Double.md",
+    "computer-science/java/Finally try-catch overriding power.md",
+    "computer-science/java/Exception Propagation.md"
+  ]
+}

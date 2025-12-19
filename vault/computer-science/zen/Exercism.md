@@ -10,6 +10,7 @@ tags:
   - programming
   - job-search
 ---
+
 Attempted today a Code Challenge for a job post with failure rate at 10000%. 
 
 On the way to clean up the code, I messed up with static keywords. 
@@ -24,7 +25,7 @@ The important thing is to start thinking in that language.
 Immersing yourself in that language. 
 Being creative with it. 
 
-For that reason, this platform is not only good for [[Thinking like Java]], 
+For that reason, this platform is not only good for Thinking like Java, 
 but also good for getting mentored by some other colleagues. 
 
 In the end, programming is all about helping each other. 
