@@ -6,6 +6,7 @@ tags:
   - java
 number: 3
 icon: Binary
+description: Attitude towards programming languages
 ---
 
 > [!info] Idea

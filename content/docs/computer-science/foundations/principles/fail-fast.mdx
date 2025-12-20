@@ -1,0 +1,43 @@
+---
+title: Fail Fast
+timestamp: 2025-11-25T01:35:00.000Z
+type:
+  - Concept Log
+system: Design Patterns
+icon: Ban
+tags:
+  - programming
+  - design-patterns
+description: System for catching errors
+---
+### Core Concept
+
+Fail-fast systems are designed to immediately stop functioning upon encountering an unexpected condition. This immediate failure helps to catch errors early, making debugging more straightforward.
+
+<ObsidianCallout type="idea">
+  <ObsidianCalloutTitle>
+    Simply put
+  </ObsidianCalloutTitle>
+
+  <ObsidianCalloutBody>
+    It's like having an intelligent robot that, as soon as someone does something wrong, catches them on camera and tells them what they've done wrong.
+  </ObsidianCalloutBody>
+</ObsidianCallout>
+
+The [fail-fast approach](https://javarevisited.blogspot.com/2012/02/fail-safe-vs-fail-fast-iterator-in-java.html) ensures that errors are caught immediately. For example, in the world of programming languages, Java embodies this approach by producing a [Null Pointer Exception](ttps://javarevisited.blogspot.com/2014/03/hibernate-nullpointerexception-due-to-space-in-HQL-Query.html#axzz8UkAByd7H)instantly when encountering a `null` value, stopping the system and making the error clear. This immediate response helps developers identify and address issues quickly, preventing them from becoming more serious.
+
+By catching and stopping errors early, fail-fast systems reduce the risk of cascading failures, where one error leads to others. This makes it easier to contain and resolve issues before they spread through the system, preserving overall stability.
+
+<ObsidianCallout type="info">
+  <ObsidianCalloutTitle>
+    Testing
+  </ObsidianCalloutTitle>
+
+  <ObsidianCalloutBody>
+    It is easy to write unit and integration tests for fail-fast systems. This advantage is even more pronounced when we need to understand the test failure. Fail-fast systems usually point directly at the problem in the error stack trace.
+  </ObsidianCalloutBody>
+</ObsidianCallout>
+
+### Resources
+
+* [https://medium.com/javarevisited/failure-is-required-understanding-fail-safe-and-fail-fast-strategies-ac9112fe056d](https://medium.com/javarevisited/failure-is-required-understanding-fail-safe-and-fail-fast-strategies-ac9112fe056d)

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/java/byte.md",
+                "file": "philosophy/Thinking like Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "byte"
+              "title": "Thinking like Java"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/java/byte.md",
+                "file": "philosophy/Thinking like Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for byte"
+              "title": "Backlinks for Thinking like Java"
             }
           },
           {
@@ -184,32 +184,34 @@
   },
   "active": "11b46f6b5ef9282c",
   "lastOpenFiles": [
-    "computer-science/clean-code/Single Point of Truth.md",
-    "computer-science/clean-code/Single Responsibility Principle.md",
-    "philosophy/Thinking like Java.md",
     "philosophy/Linking your thinking.md",
     "philosophy/Life as Music.md",
     "farming/Definition of Hydroponics.md",
-    "computer-science/zen/Root Cause Analysis.md",
-    "computer-science/zen/Exercism.md",
-    "computer-science/zen/Create Small PR's.md",
-    "computer-science/zen/Always Comment on Jiras.md",
-    "computer-science/Spring/Spring Data Architecture.md",
-    "computer-science/Spring/Spring Beans.md",
-    "computer-science/java/Unreachable Statement.md",
-    "computer-science/java/String Pool.md",
-    "computer-science/java/polymorphism.md",
-    "computer-science/java/Object-Oriented Programming.md",
-    "computer-science/java/Numeric Promotion in Java.md",
-    "computer-science/java/Many things can go wrong in a program.md",
-    "computer-science/java/JVM.md",
-    "computer-science/java/javac command for Compiler.md",
-    "computer-science/java/Java Exceptions.md",
-    "computer-science/java/java compiler.md",
-    "computer-science/java/Heap Space.md",
-    "computer-science/java/Garbage Collector.md",
-    "computer-science/java/Float vs Double.md",
-    "computer-science/java/Finally try-catch overriding power.md",
+    "computer-science/foundations/principles/The Law of Demeter.md",
+    "computer-science/foundations/principles/Single Responsibility Principle.md",
+    "computer-science/foundations/principles/Single Point of Truth.md",
+    "computer-science/foundations/principles/Separation of Concerns SoC.md",
+    "computer-science/foundations/principles/Fail Fast.md",
+    "computer-science/foundations/habits/Root Cause Analysis.md",
+    "computer-science/foundations/habits/Exercism.md",
+    "computer-science/foundations/habits/Create Small PR's.md",
+    "computer-science/foundations/habits/Always Comment on Jiras.md",
+    "computer-science/development/BEM Methodology.md",
+    "computer-science/development/ATS.md",
+    "computer-science/development/Spring/Spring Data Architecture.md",
+    "computer-science/development/Spring/Spring Beans.md",
+    "computer-science/development/java/Unreachable Statement.md",
+    "computer-science/development/java/String Pool.md",
+    "computer-science/development/java/polymorphism.md",
+    "computer-science/development/java/Object-Oriented Programming.md",
+    "computer-science/development/java/Numeric Promotion in Java.md",
+    "computer-science/development/java/Many things can go wrong in a program.md",
+    "computer-science/development/java/JVM.md",
+    "computer-science/development/java/javac command for Compiler.md",
+    "computer-science/development/java/Java Exceptions.md",
+    "computer-science/development/java/java compiler.md",
+    "computer-science/development",
+    "computer-science/foundations",
     "computer-science/assets/ats.png",
     "computer-science/assets"
   ]

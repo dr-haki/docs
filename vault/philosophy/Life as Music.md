@@ -4,7 +4,7 @@ related:
 created: 2025-01-26
 tags:
   - philosophy
-summary: it was a musical thing and you were supposed to sing or to dance while the music was being played.
+description: it was a musical thing and you were supposed to sing or to dance while the music was being played.
 cover:
 title: Life as Music
 number: 1
