@@ -1,0 +1,73 @@
+---
+title: Float vs Double
+timestamp: 2025-11-25T01:35:00.000Z
+type:
+  - Concept Log
+system: Java
+icon: Hash
+tags:
+  - programming
+  - java
+description: Difference between Java Types
+---
+The primary difference between.  
+`float` and `double` is the precision. 
+
+float is a single-precision float.\
+with about 7 decimal digits of precision\
+and a range from approximately `1.4E-45` to `3.4E+38`.
+
+On the other hand, double.
+offers double the precision with\
+about 15 decimal digits and a range.
+from approximately `4.9E-324` to `1.8E+308`,\
+making it more suitable for accurate calculations.
+
+<ObsidianCallout type="hint">
+  <ObsidianCalloutTitle>
+    double as Gear Second
+  </ObsidianCalloutTitle>
+
+  <ObsidianCalloutBody>
+    a Double is double the power of a float (normal gear).
+  </ObsidianCalloutBody>
+</ObsidianCallout>
+
+### Memory Usage
+
+`Float` consumes 32 bits of memory,\
+while `double` consumes 64 bits.\
+The choice between them can affect\
+the application's memory usage,\
+especially when dealing with large\
+data arrays or matrices.
+
+```java
+float myFloatJava = 3.14f; // Single-precision float, suffix 'f' is mandatory
+double myDoubleJava = 3.141592653589793; // Double-precision
+```
+
+<ObsidianCallout type="warning">
+  <ObsidianCalloutTitle>
+    [java compiler](./java-compiler.mdx) error to watch out
+  </ObsidianCalloutTitle>
+
+  <ObsidianCalloutBody>
+    Decimal literals in Java are assumed to be **`double`** by default. Therefore, if you declare a literal as `5.5` and want to assign it to a `float`, **you must add the suffix `F` or `f`** (e.g., `5.5F`). If you forget the suffix, the compiler will see a 64-bit `double` and tell you that it cannot fit a large value into a small container (`float`), generating a compiler error.
+  </ObsidianCalloutBody>
+</ObsidianCallout>
+
+### Best Practices for Using Float and Double
+
+To mitigate issues related to precision and rounding errors, it is crucial to follow best practices:
+
+* **Understand the precision needs**: Always choose the data type based on the precision requirements of your application. Use `double` when more precision is needed.
+* **Beware of equality checks**: When comparing floating point numbers, consider using a tolerance for equality to account for possible small differences.
+* **Use appropriate functions and libraries**: Utilize functions and libraries that are designed to handle floating point numbers accurately, especially for complex mathematical operations.
+* **Educate yourself on floating point arithmetic**: Understanding how floating point arithmetic works can help you avoid common mistakes and make better decisions in your code design.
+
+### 🦕 Sources 
+
+* [https://codefinity.com/blog/Float-vs-Double](https://codefinity.com/blog/Float-vs-Double)
+
+***

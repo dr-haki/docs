@@ -2,5 +2,16 @@
   "title": "Computer Science",
   "description": "Programming Garden",
   "icon": "Bot",
+  "pages": [
+    "---Introduction---",
+    "quick-start",
+    "what-is-drhaki-docs",
+    "---Foundations---",
+    "...foundations",
+    "---Development---",
+    "...development",
+    "---Cloud---",
+    "...azure"
+  ],
   "root": true
 }

@@ -1,0 +1,62 @@
+---
+title: java compiler
+timestamp: 2025-11-25T01:35:00.000Z
+type:
+  - Concept Log
+system: Java
+icon: Binary
+tags:
+  - programming
+  - java
+description: The Java literal translator
+---
+# Core Concept
+
+The main purpose\
+of a Java compiler\
+is to translate the\
+high-level Java source\
+code into a [machine code](https://www.techtarget.com/whatis/definition/machine-code-machine-language) \
+file consisting of machine-readable\
+0s and 1s, and then execute the file.
+
+<ObsidianCallout type="hint">
+  <ObsidianCalloutTitle>
+    Super-smart, but very literal translator
+  </ObsidianCalloutTitle>
+
+  <ObsidianCalloutBody>
+    Your job, as the **Java Compiler (javac)**, is to meticulously read *every single word* of the instructions. You don't execute the instructions yourself; you just translate them into a simpler, universal, machine-friendly blueprint called **bytecode** (stored in a `.class` file).
+    While translating, you are extremely picky.
+  </ObsidianCalloutBody>
+</ObsidianCallout>
+
+If the translation is successful,\
+you hand over the **bytecode** blueprint.
+
+This blueprint isn't for any one specific machine;\
+it's written in a special intermediate language\
+that **any** machine with the right "interpreter".\
+(the **Java Virtual Machine, or [JVM](./jvm.mdx)**)\
+can understand and execute.
+
+This is what makes Java "**Write Once, Run Anywhere**."
+
+```bash
+# How a programmer typically runs the compiler from the command line
+javac MyProgram.java
+```
+
+## Relevant Concepts
+
+* [Garbage Collector](/docs/computer-science/java/Garbage%20Collector) :: Imagine the Garbage Collector as a destructor of unused Worlds (objects). No longer needed and where any life is created.
+* [Heap Space](./heap-space.mdx) :: The dark matter of Java. Where new objects are stored.
+* [String Pool](./string-pool.mdx) :: Space in the JVM Universe for storing Strings.
+* [Compiler Time Constants](./compiler-time-constants.mdx) :: The compiler is like a cashier who, when she sees a compile-time constant, gets excited and instead of using the machine (runtime), does the calculations herself right there and then.
+* [Dynamic Dispatching](./dynamic-dispatching.mdx) :: The interface is like a contract. The compiler looks at the contract and sees if that clause exists. If it does, it lets the worker carry it out.
+
+## Resources
+
+* [Oracle Java Documentation: Compiling and Running](https://www.google.com/search?q=https://docs.oracle.com/javase/tutorial/getStarted/cup.html)
+* [Wikipedia: Java Compiler](https://en.wikipedia.org/wiki/Java_compiler)
+* [GeeksforGeeks: JVM, JRE & JDK](https://www.google.com/search?q=https://www.geeksforgeeks.org/jvm-jre-jdk/)

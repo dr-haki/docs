@@ -1,0 +1,41 @@
+---
+title: Garbage Collector
+timestamp: 2025-11-25T01:35:00.000Z
+type:
+  - Concept Log
+system: Java
+icon: Trash
+tags:
+  - programming
+  - java
+description: Automatic Memory management system
+---
+## Core Concept
+
+The Garbage Collector (GC) is the JVM's automatic memory management system.
+It automatically **deallocates** (frees up) memory occupied by objects that are no longer actively used by the program.
+
+GC primarily operates on the
+[Heap Space](./heap-space.mdx) memory area of the [JVM](./jvm.mdx),
+where all Java objects reside.
+
+<ObsidianCallout type="info">
+  <ObsidianCalloutTitle>
+    When is an object collected?
+  </ObsidianCalloutTitle>
+
+  <ObsidianCalloutBody>
+    An object is considered "garbage" when it is **unreachable** or **unreferenced**—meaning there are no active references (variables) in the running program that point to that object's memory location.
+    Check [Beware of Variable Scope](./beware-of-variable-scope.mdx) for more info.
+  </ObsidianCalloutBody>
+</ObsidianCallout>
+
+Java is unique in that the programmer **does not** explicitly destroy objects or free memory (unlike C++). This avoids common memory leaks and dangling pointer errors.
+
+### Resources
+
+* [Oracle Java Documentation: Garbage Collection](https://www.google.com/search?q=https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gc-mechanism.html)
+* [Baeldung: Guide to Java Garbage Collection](https://www.google.com/search?q=https://www.baeldung.com/java-garbage-collection)
+* [GeeksforGeeks: Garbage Collector in Java](https://www.google.com/search?q=https://www.geeksforgeeks.org/garbage-collector-in-java/)
+
+***

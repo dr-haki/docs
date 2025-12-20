@@ -1,0 +1,46 @@
+---
+title: Single Point of Truth
+timestamp: 2025-11-25T01:35:00.000Z
+type:
+  - Concept Log
+system: Design Patterns
+icon: Box
+tags:
+  - programming
+  - design-patterns
+description: Design Principle
+---
+## Core Concept
+
+The SPOT, or Single Point of Truth, principle is a better and more semantically-focused interpretation of DRY (Don't Repeat Yourself).
+
+The principle suggests that for any given piece of information,
+there should only be one authoritative location where that data is defined or set.
+This is related with the [Single Responsibility Principle](./single-responsibility-principle.mdx) ,
+where the point of truth has only one job to do.
+
+For instance, if there's a rule that pizzas need at least one topping,
+there should be a single place in the code where that condition is articulated.
+By maintaining a single source of truth, it ensures that when changes need to be made,
+they aren't sporadically made in one place but not the others.
+
+<ObsidianCallout type="info">
+  <ObsidianCalloutTitle>
+    Single Point
+  </ObsidianCalloutTitle>
+
+  <ObsidianCalloutBody>
+    We must always have a single point of truth. If the truth is divided, then we do not know what is correct.
+  </ObsidianCalloutBody>
+</ObsidianCallout>
+
+**Benefits of SPOT:**
+
+* **Consistency:** You ensure that the data (in this case, the username) is consistent across the application because there's only one source of truth.
+* **Maintainability:** If you need to change the rules for usernames (e.g., minimum length, allowed characters), you only need to modify the `isValidUsername` method in the `User` class.
+* **Reduced Bugs:** By centralizing the logic, you reduce the chances of having conflicting or inconsistent behavior related to the data.
+* **Improved Readability:** The code becomes clearer as the responsibility for managing a specific piece of data is localized.
+
+### Sources
+
+* [https://mitrapunk.com/single-source-of-truth/](https://mitrapunk.com/single-source-of-truth/)

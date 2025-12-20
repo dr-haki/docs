@@ -1,0 +1,44 @@
+---
+title: Unreachable Statement
+timestamp: 2025-11-25T01:35:00.000Z
+type:
+  - Concept Log
+system: Java
+icon: Eclipse
+tags:
+  - programming
+  - java
+description: Common exception handled by compiler
+---
+An unreachable statement +
+causes a compilation error.
+
+The [java compiler](./java-compiler.mdx)\
+needs to know that\
+it can reach every\
+line of code.
+
+```java
+1. public float parseFloat( String s ){
+2. float f = 0.0f; // 1
+3. try{
+4. f = Float.valueOf( s ).floatValue(); // 2
+5. return f ; // 3
+6. }
+7. catch(NumberFormatException nfe){
+8. f = Float.NaN ; // 4
+9. return f; // 5
+10. }
+11. finally {
+12. return f; // 6
+13. }
+14. return f ; // 7
+15. }
+```
+
+Since the Finally try-catch overriding power ,\
+if a `return` statement is added to\
+the `finally` block,\
+the rest of code is unreachable.
+
+***

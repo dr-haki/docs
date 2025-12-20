@@ -1,0 +1,44 @@
+---
+title: Finally try-catch overriding power
+timestamp: 2025-11-25T01:35:00.000Z
+type:
+  - Concept Log
+system: Java
+icon: Diameter
+tags:
+  - programming
+  - java
+description: Finally feature
+---
+The `finally` block.\
+inside the `try-catch`\
+has outstanding power.
+
+It can even override\
+a previous `return`\
+statement.
+
+```java
+try {
+	  int[] myNumbers = {1, 2, 3};
+	  return myNumbers[0]
+} catch (Exception e) {
+  System.out.println("Something went wrong.");
+} finally {
+  System.out.println("The 'try catch' is finished.");
+  return 3; // actual return from method.
+    }
+
+```
+
+Since `finally`\
+always executes,\
+even though there\
+is a `return` statement\
+inside the `try` block,\
+the method waits to exit\
+until reaching the `finally`,\
+and then overrides the `return`\
+with this last one.
+
+***
