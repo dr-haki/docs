@@ -39,10 +39,10 @@ export default function SimpleFeaturesBlockWithImage() {
 
           <div className="col-span-2 w-full">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-neutral-100 px-4 py-1.5 text-sm font-medium dark:bg-neutral-800">
-              <span>Our Philosophy</span>
+              <span>The Philosophy</span>
             </div>
 
-            <h2 className="mb-12 text-3xl font-bold [text-wrap:balance] md:text-4xl lg:text-5xl">
+            <h2 className="HeroFeatureTitle">
               Built on Openness, Sustainability, and Intelligent Growth
             </h2>
 

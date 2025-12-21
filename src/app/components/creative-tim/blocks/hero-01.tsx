@@ -29,7 +29,7 @@ const NAV_LIST = [
     href: "#"
   },
   {
-    label: "Account",
+    label: "About",
     icon: User,
     href: "#"
   },
@@ -37,7 +37,7 @@ const NAV_LIST = [
 
 function NavList() {
   return (
-    <ul className="mt-4 flex flex-col gap-1 lg:mt-0 lg:flex-row lg:items-center lg:gap-1">
+    <ul className="mt-4 flex flex-col lg:mt-0 lg:flex-row lg:items-center">
       {NAV_LIST.map(({ icon: Icon, label, href }) => (
         <li key={label}>
           <a
@@ -71,7 +71,7 @@ function Nav() {
   }, [])
 
   return (
-    <nav className="px-0 py-4">
+    <nav className="DrNavContainer">
       <div className="relative flex items-center">
         <a href="/" className="DrHakiLogo">
           Dr<span>.</span> Haki
@@ -124,24 +124,21 @@ export default function Hero01() {
             <Info className="h-3.5 w-3.5" />
             HakiGrow coming soon in 2026
           </Badge>
-          <h1 className="mx-auto mb-6 max-w-4xl scroll-m-20 text-center text-4xl !leading-tight font-bold tracking-tight [text-wrap:_balance] md:text-5xl lg:text-6xl">
-            Smarter Farming. Stronger Harvests.
+          <h1 className="DrHeroTitle">
+            Smarter Farming. <br /> Stronger Harvests.
           </h1>
-          <p className="text-muted-foreground mx-auto mb-10 max-w-2xl text-center text-base leading-relaxed md:text-lg lg:text-xl">
+          <p className="HeroSubtitle">
             Notes, systems, and experiments on growing food with intelligence.
           </p>
-          <form action="#" className="mx-auto w-full max-w-lg">
-            <div className="flex w-full flex-col items-center gap-3 sm:flex-row">
-              <Input type="email" placeholder="Email" />
+            <div className="flex items-center justify-center sm:flex-row">
               <Button
                 type="submit"
                 size="lg"
                 className="w-full shrink-0 sm:w-auto"
               >
-                Get Started
+                Explore the Docs
               </Button>
             </div>
-          </form>
         </div>
         <div className="relative h-[40vh] w-full overflow-hidden rounded-2xl shadow-2xl sm:h-[50vh] md:h-[60vh] lg:h-[70vh]">
           <img
