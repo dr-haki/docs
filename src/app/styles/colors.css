@@ -1,6 +1,7 @@
 :root {
   --dr-haki-highlight-green: #31F382;
   --dr-haki-highlight-purple: #B462FF;
+  --dr-haki-black: hsl(0, 0%, 2%);
 }
 
 @theme {

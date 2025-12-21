@@ -42,7 +42,7 @@ function NavList() {
         <li key={label}>
           <a
             href={href}
-            className="text-muted-foreground hover:text-foreground hover:bg-secondary flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors"
+            className="DrNavLink"
           >
             <Icon className="h-4 w-4" />
             {label}
@@ -73,8 +73,8 @@ function Nav() {
   return (
     <nav className="px-0 py-4">
       <div className="relative flex items-center">
-        <a href="#" className="block text-lg font-bold">
-          Dr. Haki
+        <a href="/" className="DrHakiLogo">
+          Dr<span>.</span> Haki
         </a>
         <div className="absolute top-1/2 left-1/2 hidden -translate-x-1/2 -translate-y-1/2 lg:block">
           <NavList />

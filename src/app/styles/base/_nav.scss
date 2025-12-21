@@ -1,0 +1,38 @@
+@use '../utils/colors';
+
+.DrHakiLogo {
+  display: block; 
+  font-size: 1.125rem;
+  line-height: 1.75rem; 
+  font-weight: 400;
+  font-family: var(--font-space-mono);
+  transition: opacity 0.2s ease, background 0.2s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.DrHakiLogo span {
+  color: var(--dr-haki-highlight-green);
+}
+
+.DrNavLink {
+    display: flex; 
+    padding: 0.8rem 1.2rem;
+    gap: 0.8rem; 
+    align-items: center; 
+    border-radius: 0; 
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    font-family: var(--font-space-mono);
+    font-weight: 500; 
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 100ms; 
+
+    &:hover {
+        background-color: var(--dr-haki-highlight-green);
+        color: var(--dr-haki-black);
+    }
+}
