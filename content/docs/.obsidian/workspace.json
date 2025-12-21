@@ -177,5 +177,17 @@
     }
   },
   "active": "4c1a35919f120d66",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "computer-science/what-is-drhaki-docs.mdx",
+    "computer-science/quick-start.mdx",
+    "computer-science/foundations/principles/the-law-of-demeter.mdx",
+    "computer-science/foundations/principles/single-point-of-truth.mdx",
+    "computer-science/foundations/principles/single-responsibility-principle.mdx",
+    "computer-science/foundations/principles/separation-of-concerns-soc.mdx",
+    "computer-science/foundations/principles/fail-fast.mdx",
+    "computer-science/foundations/principles/meta.json",
+    "computer-science/foundations/habits/root-cause-analysis.mdx",
+    "computer-science/foundations/habits/exercism.mdx",
+    "computer-science/foundations/habits/create-small-pr's.mdx"
+  ]
 }
