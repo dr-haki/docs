@@ -128,6 +128,9 @@ article h1 {
   --dr-haki-highlight-green: #B462FF;
   --nav-link-background: #efefef;
   --newsletter-bg: #434B4E;
+  --grain-background: #e2e2e2;
+  --grain-first-color: #B462FF;
+  --grain-second-color: #8d71a7;
 }
 
 .dark {
@@ -165,6 +168,9 @@ article h1 {
   --nav-link-background: #0B2215;
   --dr-haki-highlight-green: #31F382;
   --newsletter-bg: #434B4E;
+  --grain-background: #2e2d2d;
+  --grain-first-color: #295b3e;
+  --grain-second-color: #53ce86;
 }
 
 @layer base {

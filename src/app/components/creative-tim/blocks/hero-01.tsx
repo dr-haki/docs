@@ -9,8 +9,12 @@ import { Input } from "../../ui/input"
 import Nav from "../../ui/nav"
 import { Banner } from 'fumadocs-ui/components/banner';
 import DrBanner from "../../ui/drBanner"
+import { BackgroundPattern } from "../../background/background-pattern"
+import { useRouter } from "next/navigation"
 
 export default function Hero01() {
+  const router = useRouter();
+  
   return (
     <header className="relative">
       <div className="container mx-auto px-4">
@@ -18,6 +22,7 @@ export default function Hero01() {
       </div>
       <DrBanner />
       <div className="container mx-auto px-4 py-12 md:py-20 lg:py-28">
+        <BackgroundPattern />
         <div className="mb-16 text-center">
           <Badge variant="secondary" className="mb-6 gap-1.5 px-3 py-1.5">
             <Info className="h-3.5 w-3.5" />
@@ -34,8 +39,9 @@ export default function Hero01() {
                 type="submit"
                 size="lg"
                 className="w-full shrink-0 sm:w-auto"
+                onClick={() => router.push("/docs/computer-science/quick-start")}
               >
-                Explore the Docs
+               Explore the Docs
               </Button>
             </div>
         </div>

@@ -6,6 +6,7 @@ import Nav from "../components/ui/nav"
 import { Accordion, Accordions } from 'fumadocs-ui/components/accordion';
 import { GithubInfo } from 'fumadocs-ui/components/github-info';
 import { Callout } from "fumadocs-ui/components/callout";
+import { BackgroundPattern } from "../components/background/background-pattern";
 
 export default function AboutPage() {
   return (
@@ -17,6 +18,7 @@ export default function AboutPage() {
 
         {/* Content */}
         <div className="About__container">
+            <BackgroundPattern />
             <article className="max-w-3xl py-12 md:py-20 lg:py-28 space-y-16">
             
             {/* Header */}

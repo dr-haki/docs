@@ -1,6 +1,7 @@
 "use client"
 
 import { Award, Code2, Sparkles } from "lucide-react"
+import { BackgroundPattern } from "../../background/background-pattern"
 
 const FEATURES = [
   {
