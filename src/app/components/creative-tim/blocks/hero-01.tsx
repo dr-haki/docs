@@ -7,6 +7,8 @@ import { Badge } from "../../ui/badge"
 import { Button } from "../../ui/button"
 import { Input } from "../../ui/input"
 import Nav from "../../ui/nav"
+import { Banner } from 'fumadocs-ui/components/banner';
+import DrBanner from "../../ui/drBanner"
 
 export default function Hero01() {
   return (
@@ -14,11 +16,12 @@ export default function Hero01() {
       <div className="container mx-auto px-4">
         <Nav />
       </div>
+      <DrBanner />
       <div className="container mx-auto px-4 py-12 md:py-20 lg:py-28">
         <div className="mb-16 text-center">
           <Badge variant="secondary" className="mb-6 gap-1.5 px-3 py-1.5">
             <Info className="h-3.5 w-3.5" />
-            HakiGrow coming soon in 2026
+            Join the Jazz
           </Badge>
           <h1 className="DrHeroTitle">
             Smarter Farming. <br /> Stronger Harvests.
