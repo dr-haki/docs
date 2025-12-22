@@ -1,15 +1,13 @@
 "use client"
 
+import { Cards, Card } from "fumadocs-ui/components/card"
 import { Button } from "../../ui/button"
-import { Card, CardContent } from "../../ui/card"
 import { Input } from "../../ui/input"
 
 export default function NewsletterBlockWithDarkBackground() {
   return (
     <section className="py-16">
       <div className="container mx-auto">
-        <Card className="bg-primary text-primary-foreground border-0 shadow-none">
-          <CardContent className="grid justify-center px-6 py-12 text-center">
             <h2 className="text-2xl font-bold">
               Join the Space Jazz Farmers Collective Newsletter
             </h2>
@@ -32,8 +30,6 @@ export default function NewsletterBlockWithDarkBackground() {
                 Subscribe
               </Button>
             </form>
-          </CardContent>
-        </Card>
       </div>
     </section>
   )
