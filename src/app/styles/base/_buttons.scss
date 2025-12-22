@@ -14,3 +14,15 @@
     }
     
 }
+
+.DrBanner {
+    font-family: var(--font-space-mono);
+
+    & a {
+        color: var(--color-fd-foreground);
+
+        &:hover {
+            color: var(--dr-haki-highlight-green);
+        }
+    }
+}
