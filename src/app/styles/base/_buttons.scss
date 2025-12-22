@@ -26,3 +26,12 @@
         }
     }
 }
+
+#email {
+    color: var(--primary);
+
+    &::placeholder {
+        color: var(--primary);
+        opacity: 0.5;
+    }
+}
