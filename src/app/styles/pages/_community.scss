@@ -1,0 +1,25 @@
+
+@mixin community-style {
+  min-width: 60rem;
+  border: 1px solid green;
+}
+
+.community {
+    border: 1px solid blue;
+
+    &__container {
+        border: 1px solid red;
+    }
+
+    &__hero {
+        @include community-style;
+    }
+
+    &__merch {
+        @include community-style;
+    }
+
+    &__social-media {
+        @include community-style;
+    }
+}

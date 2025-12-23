@@ -26,7 +26,7 @@ const NAV_LIST = [
   {
     label: "Community",
     icon: Flame,
-    href: "#"
+    href: "/community"
   },
   {
     label: "About",
