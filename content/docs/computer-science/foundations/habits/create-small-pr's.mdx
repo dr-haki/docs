@@ -1,0 +1,33 @@
+---
+title: Create Small PR's
+timestamp: 2025-11-25T01:35:00.000Z
+type:
+  - Concept Log
+system: Zen
+icon: Code
+tags:
+  - programming
+  - best-practices
+description: Workflow Habit
+---
+The golden rule is that each Pull Request should change less than 200 lines of code.
+
+> *A pull request is a proposal to merge a set of changes from one branch into another. In a pull request, collaborators can review and discuss the proposed set of changes before they integrate the changes into the main codebase.*
+
+### Rule of Thumb
+
+* **Less than 200** lines.
+* A PR Review should last less than **1h 30m**
+
+### Benefits of Smaller PR's
+
+1. **Better Testing**: Since the code and components changed are smaller, we can put more energy in testing properly each component and change and not the whole app.
+2. **Easier Debugging**: *Debugging small changes is like finding a typo; debugging big changes is like proofreading an encyclopedia.*
+3. **Phased Feature Deployment**: We need to taste everything before creating a five-course meal.
+
+Each PR should adhere to the\
+[Single Responsibility Principle](../principles/single-responsibility-principle.mdx).
+
+### Sources
+
+* [https://garvitgupta58.medium.com/the-big-power-of-small-pull-requests-071689eb1a7b#:\~:text=Smaller%20PRs%20also%20benefit%20you,leading%20to%20fewer%20production%20bugs](https://garvitgupta58.medium.com/the-big-power-of-small-pull-requests-071689eb1a7b#:~:text=Smaller%20PRs%20also%20benefit%20you,leading%20to%20fewer%20production%20bugs).

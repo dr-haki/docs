@@ -1,0 +1,61 @@
+---
+title: JVM
+timestamp: 2025-11-25T01:35:00.000Z
+type:
+  - Concept Log
+system: Java
+icon: Box
+tags:
+  - programming
+  - java
+description: Java Virtual Machine
+---
+The **JVM** is an abstract\
+computing machine.\
+that enables a computer\
+to run a Java program.
+
+It is the core component\
+of the **Java Runtime Environment (JRE)**.
+
+It takes the platform-independent\
+**bytecode** from the\
+[java compiler](./java-compiler.mdx)\
+and translates it\
+into the native machine code.\
+of the specific hardware/OS it is running on.
+
+The JVM is tailored for each operating system\
+(e.g., a Windows JVM, a Linux JVM).\
+This allows the *same* bytecode to run\
+on any machine,\
+as long as that machine has the.\
+correct JVM implementation.
+
+<ObsidianCallout type="hint">
+  <ObsidianCalloutTitle>
+    JVM as an operating room
+  </ObsidianCalloutTitle>
+
+  <ObsidianCalloutBody>
+    Imagine the **Java Virtual Machine (JVM)** is a universal, self-contained **operating room** 🏥 that exists inside any computer (Windows, Mac, Linux, etc.).
+  </ObsidianCalloutBody>
+</ObsidianCallout>
+
+It uses tools such as\
+the [Garbage Collector](./garbage-collector.mdx)\
+for cleaning up objects that\
+are no longer needed.
+
+In relation with\
+[Compiler VS Runtime Error](./compiler-vs-runtime-error.mdx) ,\
+the JVM may raise an exception\
+while executing the code.\
+Producing an unchecked\
+exception such as `NullPointerException`.
+
+### Resources
+
+* [Oracle Java Documentation: What is the Java Virtual Machine?](https://docs.oracle.com/javase/8/docs/technotes/guides/vm/index.html)
+* [Baeldung: Understanding the Java Virtual Machine (JVM)](https://www.google.com/search?q=https://www.baeldung.com/jvm)
+* [GeeksforGeeks: JVM, JRE & JDK](https://www.google.com/search?q=https://www.geeksforgeeks.org/jvm-jre-jdk/)

@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "2f4ab34b32cff770",
+    "id": "5d0b060d642755a7",
     "type": "split",
     "children": [
       {
-        "id": "8527f6aa597e97d7",
+        "id": "e2548b45af5f1e87",
         "type": "tabs",
         "children": [
           {
-            "id": "e3dfd2a86c2b1bc4",
+            "id": "4c1a35919f120d66",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "308751caf47694f2",
+    "id": "649cba786b1b95f5",
     "type": "split",
     "children": [
       {
-        "id": "3fe2b89caf2475db",
+        "id": "062a4bb13da1f745",
         "type": "tabs",
         "children": [
           {
-            "id": "8036f75b51e8c784",
+            "id": "acf04fbd9421f9b9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "c278133c281099cc",
+            "id": "3fb56b347d113f4f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +61,7 @@
             }
           },
           {
-            "id": "192f8a2f1d547ff7",
+            "id": "fa69dbddca1b5c8b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,20 +77,19 @@
     "width": 300
   },
   "right": {
-    "id": "40fedc0d49071acb",
+    "id": "2a1b9a4d27a44b11",
     "type": "split",
     "children": [
       {
-        "id": "e7fb1be45d2286e4",
+        "id": "3e6414e2c1755110",
         "type": "tabs",
         "children": [
           {
-            "id": "0e9d22827f5dbd52",
+            "id": "2c10ef4d94c13093",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/java/java compiler.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for java compiler"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "fcb9792beb8f13e2",
+            "id": "0a8cdc2f04c59ca6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/java/java compiler.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from java compiler"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "3aaf13e130441df9",
+            "id": "a7affe7ffbc74536",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,7 +131,7 @@
             }
           },
           {
-            "id": "779098807f964c36",
+            "id": "ce63fe019657bd91",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -147,18 +145,17 @@
             }
           },
           {
-            "id": "d87d4def33c6893b",
+            "id": "26611ff30365ada2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/java/java compiler.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of java compiler"
+              "title": "Outline"
             }
           }
         ]
@@ -179,43 +176,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "e3dfd2a86c2b1bc4",
+  "active": "4c1a35919f120d66",
   "lastOpenFiles": [
-    "philosophy/ats.mdx",
-    "philosophy/bem-methodology.mdx",
-    "farming/definition-of-hydroponics.mdx",
-    "philosophy/life-as-music.mdx",
-    "computer-science/ats.mdx",
-    "computer-science/bem-methodology.mdx",
-    "philosophy/thinking-like-java.mdx",
-    "philosophy/linking-your-thinking.mdx",
-    "computer-science/spring/spring-beans.mdx",
-    "computer-science/spring/spring-data-architecture.mdx",
-    "computer-science/spring/documenting-interfaces.mdx",
-    "docs/computer-science/java/Garbage-Collector.md",
-    "computer-science/java/java compiler.md",
-    "computer-science/java/Heap Space.md",
-    "computer-science/java/Garbage Collector.md",
-    "computer-science/java/javac command for Compiler.md",
-    "computer-science/java/polymorphism.md",
-    "computer-science/java/Java Exceptions.md",
-    "computer-science/java/Auto-boxing and Un-boxing.md",
-    "computer-science/zen/Root Cause Analysis.md",
-    "computer-science/zen/Exercism.md",
-    "computer-science/zen/Create Small PR's.md",
-    "computer-science/zen/Always Comment on Jiras.md",
-    "computer-science/Spring/Spring Data Architecture.md",
-    "computer-science/Spring/Spring Beans.md",
-    "computer-science/Spring/Documenting Interfaces.md",
-    "computer-science/java/Unreachable Statement.md",
-    "computer-science/java/UML.md",
-    "computer-science/java/Throwable Exception Tree.md",
-    "computer-science/java/String Pool.md",
-    "computer-science/java/Numeric Promotion in Java.md",
-    "computer-science/java/Many things can go wrong in a program.md",
-    "computer-science/java/JVM.md",
-    "computer-science/java/Float vs Double.md",
-    "computer-science/java/Finally try-catch overriding power.md",
-    "computer-science/java/Exception Propagation.md"
+    "computer-science/what-is-drhaki-docs.mdx",
+    "computer-science/quick-start.mdx",
+    "computer-science/foundations/principles/the-law-of-demeter.mdx",
+    "computer-science/foundations/principles/single-point-of-truth.mdx",
+    "computer-science/foundations/principles/single-responsibility-principle.mdx",
+    "computer-science/foundations/principles/separation-of-concerns-soc.mdx",
+    "computer-science/foundations/principles/fail-fast.mdx",
+    "computer-science/foundations/principles/meta.json",
+    "computer-science/foundations/habits/root-cause-analysis.mdx",
+    "computer-science/foundations/habits/exercism.mdx",
+    "computer-science/foundations/habits/create-small-pr's.mdx"
   ]
 }

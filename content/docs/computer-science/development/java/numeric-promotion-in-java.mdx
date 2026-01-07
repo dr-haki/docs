@@ -1,0 +1,80 @@
+---
+title: Numeric Promotion in Java
+timestamp: 2025-11-25T01:35:00.000Z
+type:
+  - Concept Log
+system: Java
+icon: Binary
+tags:
+  - programming
+  - java
+description: Java feature for automatic conversion
+---
+<ObsidianCallout type="abstract">
+  <ObsidianCalloutTitle>
+    Definition
+  </ObsidianCalloutTitle>
+
+  <ObsidianCalloutBody>
+    Numeric Promotion is a feature from Java for an automatic conversion of a value to a larger data type in order to perform a mathematical operation.
+  </ObsidianCalloutBody>
+</ObsidianCallout>
+
+Numeric Promotion\
+in Java is all about\
+universal balance.
+
+```java
+int i = 12;  
+double d = 3.3;  
+double result = i * d; // 12.0 * 3.3 (int i is promoted to double)
+```
+
+This balance has still\
+a set of fixed rules.
+
+<ObsidianCallout type="important">
+  <ObsidianCalloutTitle>
+    Rule 1 - Make it Larger
+  </ObsidianCalloutTitle>
+
+  <ObsidianCalloutBody>
+    If two values have different data types, Java will automatically promote one of the values to the larger of the two data types.
+  </ObsidianCalloutBody>
+</ObsidianCallout>
+
+<ObsidianCallout type="important">
+  <ObsidianCalloutTitle>
+    Rule 2 - Floating Clouds
+  </ObsidianCalloutTitle>
+
+  <ObsidianCalloutBody>
+    If one of the values is integral and the other is floating-point, Java will automatically promote the integral value to the floating-point value\`s data type.
+  </ObsidianCalloutBody>
+</ObsidianCallout>
+
+<ObsidianCallout type="important">
+  <ObsidianCalloutTitle>
+    Rule 3 - int as a golden rule
+  </ObsidianCalloutTitle>
+
+  <ObsidianCalloutBody>
+    Smaller data types, namely byte, short and char are first promoted to int any time they`re ` used with a Java binary arithmetic operator, even if neither of the operands is int.
+  </ObsidianCalloutBody>
+</ObsidianCallout>
+
+<ObsidianCallout type="important">
+  <ObsidianCalloutTitle>
+    Rule 4 - Universal balance
+  </ObsidianCalloutTitle>
+
+  <ObsidianCalloutBody>
+    After all promotion has occurred and the operands have the same data type, the resulting value will have the same data type as its promoted operands.
+  </ObsidianCalloutBody>
+</ObsidianCallout>
+
+### 🦕 Sources 
+
+* [Nice short article on Numeric Promotion](https://medium.com/@wassim2akkacha/numeric-promotion-in-java-acbc45ccee00)
+
+***

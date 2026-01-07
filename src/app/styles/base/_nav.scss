@@ -1,0 +1,106 @@
+@use '../utils/colors';
+
+.DrNavContainer {
+  border-bottom: 1px solid var(--border);
+}
+
+.dark .DrNavContainer {
+  border-bottom: 1px solid var(--dark-border);
+}
+
+.DrHakiLogo {
+  display: block; 
+  font-size: 1.125rem;
+  line-height: 1.75rem; 
+  font-weight: 400;
+  font-family: var(--font-space-mono);
+  transition: opacity 0.2s ease, background 0.2s ease;
+  border-right: 1px solid var(--border);
+  padding: 1.5rem 2rem 1.5rem 0;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.dark .DrHakiLogo {
+  border-right: 1px solid var(--dark-border);
+}
+
+.DrHakiLogo span {
+  color: var(--dr-haki-highlight-green);
+}
+
+.DrNavLink {
+    display: flex; 
+    padding: 1.7rem;
+    gap: 0.8rem; 
+    align-items: center; 
+    border-radius: 0; 
+    border-left: 1px solid var(--border);
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    font-family: var(--font-space-mono);
+    font-weight: 500; 
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 100ms; 
+
+    &:hover {
+        background-color: var(--nav-link-background);
+        color: var(--dr-haki-highlight-green);
+    }
+}
+
+.dark .DrNavLink {
+      border-left: 1px solid var(--dark-border);
+}
+
+.DrHeroTitle {
+    margin-bottom: 1.5rem; 
+    letter-spacing: -0.025em; 
+    text-align: center; 
+    scroll-margin: 5rem; 
+    font-family: var(--font-space-mono);
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.5rem; 
+
+    @media (min-width: 768px) { 
+        font-size: 3.3rem;
+        line-height: 1; 
+    }
+    @media (min-width: 1024px) { 
+        font-size: 4.2rem;
+        line-height: 1.1; 
+    }
+
+}
+
+.HeroFeatureTitle {
+  @extend .DrHeroTitle;
+  font-size: 2.2rem;
+  margin-bottom: 1em;
+}
+
+.HeroSubtitle {
+  margin-bottom: 2.5rem; 
+  font-size: 1rem;
+  line-height: 1.5rem; 
+  line-height: 1.625; 
+  text-align: center; 
+  font-family: var(--font-dm-sans);
+  opacity: 0.7;
+
+  @media (min-width: 768px) { 
+    font-size: 1.125rem;
+  line-height: 1.75rem; 
+  }
+  @media (min-width: 1024px) { 
+    font-size: 1.25rem;
+  line-height: 1.75rem; 
+  }
+
+
+
+}

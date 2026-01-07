@@ -1,0 +1,37 @@
+
+.DrButton {
+    font-family: var(--font-space-mono);
+    cursor: pointer;
+}
+
+.DrAccordion {
+    font-family: var(--font-dm-sans);
+    color: var(--color-fd-foreground);
+
+    & h3 {
+        font-family: var(--font-space-mono);
+        color: var(--foreground);
+    }
+    
+}
+
+.DrBanner {
+    font-family: var(--font-space-mono);
+
+    & a {
+        color: var(--color-fd-foreground);
+
+        &:hover {
+            color: var(--dr-haki-highlight-green);
+        }
+    }
+}
+
+#email {
+    color: var(--primary);
+
+    &::placeholder {
+        color: var(--primary);
+        opacity: 0.5;
+    }
+}

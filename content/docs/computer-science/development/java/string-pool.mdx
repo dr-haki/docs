@@ -1,0 +1,70 @@
+---
+title: String Pool
+timestamp: 2025-11-25T01:35:00.000Z
+type:
+  - Concept Log
+system: Java
+icon: Shell
+tags:
+  - programming
+  - java
+description: Space in the Heap for Strings
+---
+One of the most\
+used features in Java\
+is the Java String.
+
+That's why the [JVM](./jvm.mdx)\
+has created a special\
+galaxy in its universe\
+called String Pool for\
+storing Strings.
+
+The String Pool lives\
+also inside the [Heap Space](./heap-space.mdx).
+
+The reason for this\
+is basically for optimising\
+as much as possible the\
+creation of Java String\
+since every string object\
+is immutable.
+
+For searching a match,\
+the [java compiler](./java-compiler.mdx) is the\
+one checking the literals\
+and [Compiler Time Constants](./compiler-time-constants.mdx) .
+
+<ObsidianCallout type="hint">
+  <ObsidianCalloutTitle>
+    The new keyword
+  </ObsidianCalloutTitle>
+
+  <ObsidianCalloutBody>
+    Using the new() operator for the String, creates always a unique and different object in heap memory. Even if it is exactly the same as other literal or object.
+  </ObsidianCalloutBody>
+</ObsidianCallout>
+
+```java
+String first = "Baeldung"; 
+String second = "Baeldung"; 
+System.out.println(first == second); // True :: Compiler has found a match on String pool
+
+String third = new String("Baeldung");
+String fourth = new String("Baeldung"); 
+System.out.println(third == fourth); // False :: Each object is unique. 
+```
+
+Since one of the\
+benefits of Java is\
+causing less memory leaks,\
+the String Pool is stored in\
+the [Heap Space](./heap-space.mdx), where the\
+[Garbage Collector](./garbage-collector.mdx) may\
+remove unreferenced Strings.
+
+### Resources
+
+* [Basic String Pool Documentation](https://www.baeldung.com/java-string-pool)
+
+***

@@ -1,16 +1,17 @@
-import Link from 'next/link';
+
+import Footers03 from '../components/creative-tim/blocks/footers-03';
+import Hero01 from '../components/creative-tim/blocks/hero-01';
+import NewsletterBlockWithDarkBackground from '../components/creative-tim/blocks/newsletter-block-with-dark-background';
+import SimpleFeaturesBlockWithImage from '../components/creative-tim/blocks/simple-features-block-with-image';
+import DrBanner from '../components/ui/drBanner';
 
 export default function HomePage() {
   return (
     <div className="flex flex-col justify-center text-center flex-1">
-      <h1 className="text-2xl font-bold mb-4">Hello World</h1>
-      <p>
-        You can open{' '}
-        <Link href="/docs" className="font-medium underline">
-          /docs
-        </Link>{' '}
-        and see the documentation.
-      </p>
+      <Hero01 />
+      <NewsletterBlockWithDarkBackground />
+      <SimpleFeaturesBlockWithImage />
+      <Footers03 />
     </div>
   );
 }
