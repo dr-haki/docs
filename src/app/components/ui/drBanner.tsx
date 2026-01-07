@@ -5,7 +5,7 @@ import { ArrowRight  } from "lucide-react";
 export default function DrBanner() {
   
   return (
-    <Banner id="waitlist" className="DrBanner" variant="rainbow"
+    <Banner className="DrBanner" variant="rainbow"
                   rainbowColors={[
                     '#31f38248',
                     '#31f38248',
@@ -15,6 +15,6 @@ export default function DrBanner() {
                     '#31f38248',
                     'transparent',
                   ]}
-          >HakiGrow launches in 2026 |  <Link className=" flex mx-2" href={""}> Join the waitlist <ArrowRight className="mx-1 pt-1" size={18} /></Link> </Banner>
+          >FarmOrchestra launches in 2026 |  <Link className=" flex mx-2" href={""}> Join the waitlist <ArrowRight className="mx-1 pt-1" size={18} /></Link> </Banner>
   )
 }

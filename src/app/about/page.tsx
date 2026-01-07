@@ -7,6 +7,7 @@ import { Accordion, Accordions } from 'fumadocs-ui/components/accordion';
 import { GithubInfo } from 'fumadocs-ui/components/github-info';
 import { Callout } from "fumadocs-ui/components/callout";
 import { BackgroundPattern } from "../components/background/background-pattern";
+import ReactPlayer from 'react-player'
 
 export default function AboutPage() {
   return (
@@ -38,7 +39,6 @@ export default function AboutPage() {
 
             <hr />
 
-            {/* Philosophy */}
             <section className="space-y-6">
                 <h2 className="dr-h2">
                 Philosophy

@@ -19,16 +19,6 @@ const NAV_LIST = [
     href: "/docs/computer-science/quick-start"
   },
   {
-    label: "Logs",
-    icon: Box,
-    href: "#"
-  },
-  {
-    label: "Community",
-    icon: Flame,
-    href: "/community"
-  },
-  {
     label: "About",
     icon: User,
     href: "/about"
@@ -72,18 +62,12 @@ export default function Nav() {
 
   return (
     <nav className="DrNavContainer">
-      <div className="relative flex items-center">
+      <div className="relative flex justify-between">
         <a href="/" className="DrHakiLogo">
           Dr<span>.</span> Haki
         </a>
-        <div className="absolute top-1/2 left-1/2 hidden -translate-x-1/2 -translate-y-1/2 lg:block">
+        <div className="hidden lg:block">
           <NavList />
-        </div>
-        <div className="ml-auto hidden items-center gap-2 lg:flex">
-          <Button size="sm" variant="ghost">
-            Sign In
-          </Button>
-          <Button size="sm">Get Started</Button>
         </div>
         <Button
           size="sm"
