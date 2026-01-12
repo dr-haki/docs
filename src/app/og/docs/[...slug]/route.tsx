@@ -17,7 +17,7 @@ export async function GET(
     <DefaultImage
       title={page.data.title}
       description={page.data.description}
-      site="Dr. Haki Docs"
+      site="Tao Te Bits"
     />,
     {
       width: 1200,

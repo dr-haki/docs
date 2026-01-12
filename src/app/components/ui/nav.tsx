@@ -64,7 +64,7 @@ export default function Nav() {
     <nav className="DrNavContainer">
       <div className="relative flex justify-between">
         <a href="/" className="DrHakiLogo">
-          Dr<span>.</span> Haki
+          Tao Te Bits
         </a>
         <div className="hidden lg:block">
           <NavList />
