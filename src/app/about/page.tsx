@@ -28,13 +28,12 @@ export default function AboutPage() {
                 About
                 </Badge>
                 <h1 className="DrHeroTitle">
-                Dr. Haki
+                Tao Te Bits
                 </h1>
                 <p className="HeroSubtitle">
-                Dr. Haki is a living research project exploring how food, technology,
+                Tao Te Bits is a living research project exploring how food, technology,
                 and human systems grow together.
                 </p>
-                <GithubInfo owner="dr-haki" repo="docs" className="lg:-mx-2" />
             </section>
 
             <hr />
@@ -44,7 +43,7 @@ export default function AboutPage() {
                 Philosophy
                 </h2>
                 <p className="dr-body">
-                Dr. Haki exists at the intersection of hydroponics, computer science,
+                Tao Te Bits exists at the intersection of hydroponics, computer science,
                 and systems thinking. It treats farming as an intelligent system,
                 technology as a collaborator, and learning as an open process.
                 </p>
@@ -73,7 +72,7 @@ export default function AboutPage() {
 
                 <Cards>
                     <Card title="Self-Sustainability">
-                        Growing food is an act of independence and care. Dr. Haki aims
+                        Growing food is an act of independence and care. Tao Te Bits aims
                         to help people understand systems deeply enough to grow their
                         own food and reduce their environmental impact.
                     </Card>
@@ -97,7 +96,7 @@ export default function AboutPage() {
                     FAQ
                 </h2>
                 <Accordions type="multiple">
-                    <Accordion className="DrAccordion" title="What is Dr. Haki Docs?">A digital garden of interconnected notes on programming, farming, philosophy, and jazz</Accordion>
+                    <Accordion className="DrAccordion" title="What is Tao Te Bits?">A digital garden of interconnected notes on programming, farming, philosophy, and jazz</Accordion>
                     <Accordion className="DrAccordion"  title="How can I get News from the project?">Follow the daily logs Twitter thread where experiments, failures and growth is documented.</Accordion>
                     <Accordion className="DrAccordion"  title="What does the Newsletter contain?">A weekly newsletter distilling patterns and lessons</Accordion>
                 </Accordions>
@@ -105,7 +104,7 @@ export default function AboutPage() {
 
             {/* Closing */}
             <Callout title="Work in progress" type="warning">
-                Dr. Haki is not a finished product. It is an ongoing experiment—a
+                Tao Te Bits is not a finished product. It is an ongoing experiment—a
                 record of learning in public, growing systems slowly, and listening
                 closely to what both plants and machines are telling us.
             </Callout>
