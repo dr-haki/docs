@@ -17,7 +17,7 @@ export async function GET(
     <DefaultImage
       title={page.data.title}
       description={page.data.description}
-      site="Tao Te Bits"
+      site="Linking Tao"
     />,
     {
       width: 1200,

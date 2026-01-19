@@ -5,13 +5,9 @@
   "pages": [
     "---Introduction---",
     "quick-start",
-    "what-is-tao-te-bits",
-    "---Foundations---",
-    "...foundations",
-    "---Development---",
-    "...development",
-    "---Cloud---",
-    "...azure"
+    "what-is-linking-tao",
+    "---Notes---",
+    "..."
   ],
   "root": true
 }
