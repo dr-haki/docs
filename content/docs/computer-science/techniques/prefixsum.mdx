@@ -1,0 +1,70 @@
+---
+title: PrefixSum
+description: Technique for storing a cumulative sum of elements.
+timestamp: 2025-11-25T01:35:00.000Z
+type: null
+system: null
+icon: File
+tags:
+  - programming
+---
+![preffix.png](/computer-science/assets/preffix.png)
+
+The PrefixSum technique consists of creating a final array with the previous sum of elements in each position of the array.
+It is similar to representing the snowball effect using an algorithm.
+
+```java
+prefixSum[i] = arr[0] + arr[1] + … + arr[i]
+```
+
+***
+
+The power of PrefixSum lies\
+on efficient cumulative calculation.\
+Optimise repetitive operations.\
+DRY principle.
+
+It may be used not only\
+on leetcode problems,\
+but also for real-life\
+operations.
+
+As the [Ubermensch](../../philosophy/ubermensch.mdx) follows,\
+the PrefixSum represents\
+the continuous life process\
+for self-overcoming.
+
+> Is today stronger than the past, taken as a whole?
+
+***
+
+## Example code
+
+```java
+class PrefixSumExample
+{
+    public static int[] ComputePrefixSum(int[] arr)
+    {
+        int n = arr.Length;
+        int[] prefixSum = new int[n];
+        prefixSum[0] = arr[0];
+        for (int i = 1; i < n; i++)
+        {
+            prefixSum[i] = prefixSum[i - 1] + arr[i];
+        }
+        return prefixSum;
+    }
+    static void Main()
+    {
+        int[] arr = { 2, 4, 6, 8 };
+        int[] prefixSum = ComputePrefixSum(arr);
+        Console.WriteLine("Prefix Sum Array:");
+        foreach (var sum in prefixSum)
+        {
+            Console.Write(sum + " ");  // Output: 2 6 12 20
+        }
+    }
+}
+```
+
+> Source: [Prefix Sums Demystified](https://medium.com/@hanxuyang0826/prefix-sums-demystified-from-leetcode-challenges-to-real-world-solutions-ce740081cc7b)

@@ -1,5 +1,0 @@
-{
-  "pages": [
-    "single-responsibility-principle", "single-point-of-truth", "separation-of-concerns-soc", "fail-fast", "the-law-of-demeter"
-  ]
-}
